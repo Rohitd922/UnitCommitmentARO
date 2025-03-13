@@ -1,0 +1,24 @@
+name = "UnitCommitmentARO"
+uuid = "8cf0fd03-d1df-4e6e-9839-040902ca6dbb"
+authors = ["Rohit Dube <dube.rohit@tamu.edu>"]
+version = "0.1.0"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Gurobi = "2e9cd046-0924-5485-92f1-d5272153d98b"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+[compat]
+CSV = "0.10.15"
+DataFrames = "1.7.0"
+DataStructures = "0.18.20"
+Distributions = "0.25.118"
+Gurobi = "1.7.0"
+JuMP = "1.24.0"
+OrderedCollections = "1.8.0"
+Random = "1.11.0"
